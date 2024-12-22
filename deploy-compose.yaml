@@ -21,7 +21,7 @@ services:
       - 3307:3306
 
   web:
-    image: hungh2002/blog:latest
+    image: hungh2002/note:latest
     environment:
       DATABASE: note
       DB_USERNAME: root
