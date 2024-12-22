@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ryu</groupId>
-	<artifactId>note</artifactId>
+	<artifactId>note-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>note</name>
 	<description>Demo project for Spring Boot</description>
@@ -64,7 +64,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>toolkit_for_everything</finalName>
+		<finalName>note</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
