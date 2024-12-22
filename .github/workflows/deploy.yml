@@ -28,7 +28,7 @@ jobs:
           key: ${{ secrets.PRIVATE_KEY }}
           port: ${{ secrets.PORT }}
           script: |
-            cd /home/${{ secrets.USERNAME }}/Deploy/note/note-backend
+            cd /home/${{ secrets.USERNAME }}/Deploy
             git switch main 
             git origin pull main
             docker compose -f ./deploy-compose.yaml down
