@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: note-backend
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mariadb://${DB_HOST:localhost}:${DB_PORT:3306}/${DATABASE:note}
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:1905}
+    driver-class-name: org.mariadb.jdbc.Driver
+server:
+  servlet:
+    context-path: /api
